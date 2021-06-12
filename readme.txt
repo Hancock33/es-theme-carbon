@@ -17,6 +17,8 @@ To change the sound effect, replace /art/scroll.wav with what ever WAV file you 
 
 Changelog
 =========
+===12/06/2021===
+forked from fabricecaruso master and images from Launchbox Nostalgia theme. Credits to Viking and dragon57
 
 ===08/16/2016===
 Added Super Grafx
