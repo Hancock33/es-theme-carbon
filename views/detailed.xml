@@ -47,7 +47,7 @@ originally based on: "simple" by nils bonenberger
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
       <loops>1</loops>
-      <roundCorners>0.02</roundCorners>
+      <roundCorners>0</roundCorners>
       <zIndex>30</zIndex>
       <defaultSnapshot>./../art/grid/defgame.png</defaultSnapshot>
       <!--<shader>:/shaders/scanlines.glsl</shader>-->

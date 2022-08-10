@@ -33,7 +33,7 @@ originally based on: "simple" by nils bonenberger
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
       <loops>1</loops>
-      <roundCorners>0.02</roundCorners>
+      <roundCorners>0</roundCorners>
     </video>
 
     <image name="md_fanart">
