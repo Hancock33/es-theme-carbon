@@ -99,7 +99,7 @@ originally based on: "simple" by nils bonenberger
   </subset>
   <!-- Subset option for System view background -->
   <subset name="systembackground" displayName="${systemBackgroundName}">
-    <include tinyScreen="false" name="mini-consoles" displayName="${systembackground.miniconsoles}">./subsets/systembackground/consoles.xml</include>
+    <!-- include tinyScreen="false" name="mini-consoles" displayName="${systembackground.miniconsoles}">./subsets/systembackground/consoles.xml</include>
     <!-- change default for small screens -->
     <include name="consoles" displayName="${systembackground.consoles}">./subsets/systembackground/batomachines.xml</include>
     <include tinyScreen="true" name="mini-consoles" displayName="${systembackground.miniconsoles}">./subsets/systembackground/consoles.xml</include>
@@ -122,9 +122,9 @@ originally based on: "simple" by nils bonenberger
   <include subset="systemview" name="legacy" displayName="${systemview.legacy}">./subsets/systemview/legacyfix.xml</include>
 
   <!-- Common views  -->
+  <include>./views/detailed.xml</include>
   <include>./views/common.xml</include>
   <include>./views/basic.xml</include>
-  <include>./views/detailed.xml</include>
   <include>./views/gamecarousel.xml</include>
   <include>./views/grid.xml</include>
   <!-- Custom views  -->
