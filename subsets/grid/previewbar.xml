@@ -72,7 +72,7 @@
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
       <loops>0</loops>
-      <roundCorners>0</roundCorners>
+      <roundCorners>0.02</roundCorners>
     </video>
 
     <video name="md_video" ifSubset="gameBar:yes">

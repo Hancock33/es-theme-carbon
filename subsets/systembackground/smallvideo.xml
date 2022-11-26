@@ -8,7 +8,7 @@
       <delay>0.20</delay>
       <color>FFFFFFFF</color>
       <effect>none</effect>
-      <roundCorners>0</roundCorners>
+      <roundCorners>0.05</roundCorners>
       <pos>0.50 0.18</pos>
       <origin>0.5 0.5</origin>
       <maxSize>0.24 0.24</maxSize>
