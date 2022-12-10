@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <variables>
+    <baseColor>8b0000</baseColor>
+    <gradientEndColor>6b2020</gradientEndColor>
+    <backgroundColor>252525</backgroundColor>
+    <centerFadeColor>8b000050</centerFadeColor>
+  </variables>
+  <view name="splash">
+    <splash name="splash">
+      <backgroundColor>000000FF</backgroundColor>
+    </splash>
+    <image name="progressbar">
+      <origin>0 0</origin>
+      <pos>0.25 0.85</pos>
+      <size>0.5 0.036</size>
+      <color>6060607F</color>
+      <colorEnd>6060607F</colorEnd>
+      <roundCorners>0.01</roundCorners>
+    </image>
+    <text name="label">
+      <origin>0 0</origin>
+      <pos>0.25 0.92</pos>
+      <size>0.5 0.036</size>
+      <fontSize>0.045</fontSize>
+      <color>FFFFFFFF</color>
+      <glowColor>00000018</glowColor>
+      <glowSize>3</glowSize>
+      <glowOffset>1</glowOffset>
+    </text>
+  </view>
+</theme>
