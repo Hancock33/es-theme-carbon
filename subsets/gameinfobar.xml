@@ -116,7 +116,7 @@
 			<format>%Y</format>
 			<color>dddddd</color>
 			<forceUppercase>0</forceUppercase>
-			<fontPath>./../art/fonts/Cabin-Bold.ttf</fontPath>
+			<fontPath>./../art/fonts/Comfortaa-Bold.ttf</fontPath>
 			<rotation>-90</rotation>
 			<alignment>left</alignment>
 			<fontSize>0.025</fontSize>

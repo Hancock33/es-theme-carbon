@@ -37,7 +37,7 @@
       <size>0.30 0.05</size>
       <color>F0F0F0</color>
       <fontSize>0.038</fontSize>
-      <fontPath>./../../art/fonts/Cabin-Bold.ttf</fontPath>
+      <fontPath>./../../art/fonts/Comfortaa-Bold.ttf</fontPath>
       <alignment>center</alignment>
       <glowColor>${glowColor}</glowColor>
       <glowSize>2</glowSize>

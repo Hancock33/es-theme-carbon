@@ -15,6 +15,7 @@
     </image>
     <text name="label">
       <color>FFFFFFFF</color>
+      <fontPath>./art/fonts/Comfortaa-Bold.ttf</fontPath>
       <fontSize>0.07</fontSize>
       <glowColor>00000020</glowColor>
       <glowSize>2</glowSize>

@@ -28,7 +28,7 @@ originally based on: "simple" by nils bonenberger
       <size>0.489 0.73</size>
       <alignment>left</alignment>
       <horizontalMargin>0.00</horizontalMargin>
-      <fontPath>./../art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontPath>./../art/fonts/Comfortaa-Regular.ttf</fontPath>
       <fontSize>0.028</fontSize>
       <scrollSound>./../art/sounds/scroll.wav</scrollSound>
       <scrollbarColor>96969620</scrollbarColor>
@@ -120,13 +120,13 @@ originally based on: "simple" by nils bonenberger
     <text name="md_lbl_developer, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_lbl_players, md_lbl_releasedate">
       <color>969696</color>
       <forceUppercase>0</forceUppercase>
-      <fontPath>./../art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontPath>./../art/fonts/Comfortaa-Regular.ttf</fontPath>
       <fontSize>0.023</fontSize>
     </text>
     <text name="md_genre, md_developer, md_publisher, md_lastplayed, md_releasedate, md_players">
       <color>969696</color>
       <forceUppercase>0</forceUppercase>
-      <fontPath>./../art/fonts/Cabin-Bold.ttf</fontPath>
+      <fontPath>./../art/fonts/Comfortaa-Bold.ttf</fontPath>
       <fontSize>0.023</fontSize>
     </text>
     <text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer">
@@ -186,7 +186,7 @@ originally based on: "simple" by nils bonenberger
       <size>0.43 0.16</size>
       <color>C0C0C0</color>
       <forceUppercase>0</forceUppercase>
-      <fontPath>./../art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontPath>./../art/fonts/Comfortaa-Regular.ttf</fontPath>
       <fontSize>0.023</fontSize>
       <glowColor>000000A0</glowColor>
       <glowSize ifArch="windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>

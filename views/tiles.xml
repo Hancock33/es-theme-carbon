@@ -62,7 +62,7 @@
     <text name="gridtile">
       <color>D0D0D0D0</color>
       <backgroundColor>00000000</backgroundColor>
-      <fontPath>./art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontPath>./art/fonts/Comfortaa-Regular.ttf</fontPath>
       <fontSize>0.026</fontSize>
       <alignment>center</alignment>
       <singleLineScroll>false</singleLineScroll>

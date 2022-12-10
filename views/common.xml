@@ -52,7 +52,7 @@ originally based on: "simple" by nils bonenberger
       <size>0.98 0.126</size>
       <alignment>center</alignment>
       <fontSize>0.055</fontSize>
-      <fontPath>./art/fonts/Cabin-Bold.ttf</fontPath>
+      <fontPath>./art/fonts/Comfortaa-Bold.ttf</fontPath>
       <color>${baseColor}</color>
       <color>FAFAFA</color>
       <glowColor>${glowColor}</glowColor>
@@ -92,7 +92,7 @@ originally based on: "simple" by nils bonenberger
       <color>B0B0B0</color>  
       <alignment>center</alignment>
       <fontSize>0.016</fontSize>
-      <fontPath>./art/fonts/Cabin-Bold.ttf</fontPath>
+      <fontPath>./art/fonts/Comfortaa-Bold.ttf</fontPath>
       <forceUppercase>true</forceUppercase>
       <zIndex>200</zIndex>
     </text>  

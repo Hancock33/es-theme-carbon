@@ -25,7 +25,7 @@ El más jugado : {binding:mostPlayed}
 Última partida : {binding:lastPlayedDate}</text>
       <alignment>center</alignment>
       <verticalAlignment>center</verticalAlignment>
-      <fontPath>./art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontPath>./art/fonts/Comfortaa-Regular.ttf</fontPath>
       <fontSize>0.024</fontSize>
       <pos>0.03 0.64</pos>
       <size>0.94 0.28</size>

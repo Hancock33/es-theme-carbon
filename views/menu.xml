@@ -10,17 +10,17 @@ originally based on: "simple" by nils bonenberger
   <formatVersion>7</formatVersion>
   <view name="menu">
     <menuText name="menutitle">
-      <fontPath>./../art/fonts/Cabin-Bold.ttf</fontPath>
+      <fontPath>./../art/fonts/Comfortaa-Bold.ttf</fontPath>
       <fontSize>0.038</fontSize>
       <color>FAFAFA</color>
     </menuText>
     <menuText name="menufooter">
-      <fontPath>./../art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontPath>./../art/fonts/Comfortaa-Regular.ttf</fontPath>
       <fontSize>0.02</fontSize>
       <color>777777FF</color>
     </menuText>
     <menuText name="menutext">
-      <fontPath>./../art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontPath>./../art/fonts/Comfortaa-Regular.ttf</fontPath>
       <fontSize>0.028</fontSize>
       <fontSize tinyScreen="true">0.034</fontSize>
       <color>969696</color>
@@ -31,12 +31,12 @@ originally based on: "simple" by nils bonenberger
       <selectorGradientType>horizontal</selectorGradientType>
     </menuText>
     <menuTextSmall name="menutextsmall">
-      <fontPath>./../art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontPath>./../art/fonts/Comfortaa-Regular.ttf</fontPath>
       <fontSize>0.016</fontSize>
       <color>${groupColor}</color>
     </menuTextSmall>
     <menuGroup name="menugroup">
-      <fontPath>./../art/fonts/Cabin-Bold.ttf</fontPath>
+      <fontPath>./../art/fonts/Comfortaa-Bold.ttf</fontPath>
       <fontSize>0.018</fontSize>
       <color>${groupColor}</color>
      <!-- <separatorColor>${groupSeparatorColor}</separatorColor>-->
