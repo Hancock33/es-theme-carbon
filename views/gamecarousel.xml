@@ -18,7 +18,7 @@ originally based on: "simple" by nils bonenberger
       <maxLogoCount>15</maxLogoCount>
       <imageSource>marquee</imageSource> <!-- text, image, thumbnail, marquee -->
       <zIndex>10</zIndex>
-    </gamecarousel>    
+    </gamecarousel>
     <text name="gamecarouselLogoText">
       <color>FFFFFFFF</color>
       <glowColor>000000FF</glowColor>
@@ -46,7 +46,7 @@ originally based on: "simple" by nils bonenberger
       <linearSmooth>true</linearSmooth>
       <zIndex>9</zIndex>
     </image>
-    
+
 <!--
     <image name="background">
       <tile>false</tile>
@@ -55,9 +55,9 @@ originally based on: "simple" by nils bonenberger
       <origin>0 0</origin>
       <path>./art/bg.png</path>
       <color>${backgroundColor}</color>
-      <zIndex>10</zIndex>      
+      <zIndex>10</zIndex>
     </image>
-    
+
     <image name="consolebk" extra="true" ifSubset="systembackground:consoles">
       <path>./art/background/${system.theme}.jpg</path>
       <linearSmooth>true</linearSmooth>
@@ -67,7 +67,7 @@ originally based on: "simple" by nils bonenberger
       <color>FFFFFF12</color>
       <zIndex>11</zIndex>
     </image>
-  
+
     <image name="ControllerOverlay" extra="true" ifSubset="systembackground:mini-consoles">
       <path>./art/consoles/default.png</path>
       <path>./art/consoles/${system.theme}.png</path>
@@ -100,7 +100,7 @@ originally based on: "simple" by nils bonenberger
       <size>0.005 0.774</size>
       <zIndex>12</zIndex>
     </image>
-      
+
    <!--
     <image name="detailsBkLine" extra="true">
       <path>./art/white.png</path>
@@ -116,14 +116,14 @@ originally based on: "simple" by nils bonenberger
       <storyboard>
         <animation property="opacity" from="0" duration="350" mode="easeOut"/>
       </storyboard>
-    </text>    
+    </text>
     <text name="md_lbl_developer, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_lbl_players, md_lbl_releasedate">
       <color>969696</color>
       <forceUppercase>0</forceUppercase>
       <fontPath>./art/fonts/Comfortaa-Regular.ttf</fontPath>
       <fontSize>0.023</fontSize>
     </text>
-    
+
     <text name="md_genre, md_developer, md_publisher, md_lastplayed, md_releasedate, md_players">
       <color>969696</color>
       <forceUppercase>0</forceUppercase>
@@ -138,7 +138,7 @@ originally based on: "simple" by nils bonenberger
     <datetime name="md_lastplayed">
       <pos>1 1</pos>
     </datetime>
-    
+
     <image name="md_flag">
       <origin>0 0.5</origin>
       <pos>0.55 0.9</pos>
@@ -156,7 +156,7 @@ originally based on: "simple" by nils bonenberger
       <pos>0.94 0.886</pos>
       <size>0.05 0.03</size>
       <size verticalScreen="true">0.05 0.02</size>
-      <horizontalAlignment>right</horizontalAlignment>      
+      <horizontalAlignment>right</horizontalAlignment>
       <color>FFFF00</color>
       <unfilledColor>808080</unfilledColor>
   <unfilledPath>:/star_filled.svg</unfilledPath>
@@ -195,16 +195,16 @@ originally based on: "simple" by nils bonenberger
     <image name="md_hidden">
       <path>./art/hidden.svg</path>
       <pos>0.975 0.21</pos>
-      <maxSize>0.02 0.03</maxSize>      
+      <maxSize>0.02 0.03</maxSize>
       <origin>0.5 0.5</origin>
       <color>969696</color>
       <zIndex>150</zIndex>
     </image>
 
-    <image name="md_kidgame">     
+    <image name="md_kidgame">
       <path>./art/kid.svg</path>
       <pos>0.86 0.9</pos>
-      <maxSize>0.02 0.03</maxSize>      
+      <maxSize>0.02 0.03</maxSize>
       <origin>0.5 0.5</origin>
       <color>969696</color>
       <zIndex>150</zIndex>
@@ -213,7 +213,7 @@ originally based on: "simple" by nils bonenberger
     <image name="md_manual">
       <path>./art/manual.svg</path>
       <pos>0.882 0.9</pos>
-      <maxSize>0.02 0.03</maxSize>      
+      <maxSize>0.02 0.03</maxSize>
       <origin>0.5 0.5</origin>
       <color>969696</color>
       <zIndex>150</zIndex>
@@ -222,7 +222,7 @@ originally based on: "simple" by nils bonenberger
 <!--
     <image name="md_favorite">
       <pos>0.975 0.21</pos>
-      <maxSize>0.02 0.03</maxSize>      
+      <maxSize>0.02 0.03</maxSize>
       <path>./art/favorite.svg</path>
       <origin>0.5 0.5</origin>
       <color>969696</color>

@@ -30,7 +30,7 @@
     <no>لا</no>
     <!-- Subset options for screen -->
     <systemViewName>نظام العرض</systemViewName>
-    <systemview.darkened>مظلمة</systemview.darkened> <!-- don't sure --> 
+    <systemview.darkened>مظلمة</systemview.darkened> <!-- don't sure -->
     <systemview.horizontal>أفقي</systemview.horizontal>
     <systemview.legacy>إرث</systemview.legacy>         <!-- don't sure -->
     <systemview.transparent>الشفافية</systemview.transparent>
@@ -99,5 +99,5 @@
     <text>نص</text>
     <thumbnail>مينياتورا</thumbnail>
     <animationsSubsetName>الانتقالات</animationsSubsetName>
-  </variables>  
+  </variables>
 </theme>

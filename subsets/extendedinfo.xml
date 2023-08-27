@@ -166,7 +166,7 @@ Mais jogados : {binding:mostPlayed}
       <text lang="pt_BR">Número de elementos : {binding:total}</text>
       <text lang="ru">Количество элементов : {binding:total}</text>
       <text lang="uk">Кількість елементів : {binding:total}</text>
-      <text lang="zh">元素的数量 : {binding:total}</text>      
+      <text lang="zh">元素的数量 : {binding:total}</text>
     </text>
   </view>
 </theme>

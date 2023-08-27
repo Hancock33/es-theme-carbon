@@ -32,7 +32,7 @@
     </image>
     <image name="backgroundMachines" extra="true" region="br">
       <path>./../../art/background/br/${system.theme}.jpg</path>
-    </image>    
+    </image>
     <image name="backgroundMachines" extra="true" region="jp">
       <path>./../../art/background/jp/${system.theme}.jpg</path>
     </image>

@@ -17,7 +17,7 @@
       <logoSize verticalScreen="true">0.35 0.1</logoSize>
       <maxLogoCount verticalScreen="true">1</maxLogoCount>
     </carousel>
-    <image name="logo">      
+    <image name="logo">
       <path>./../../art/logos/${system.theme}-w.png</path>
       <path>./../../art/logos/${system.theme}-w.svg</path>
     </image>
@@ -64,7 +64,7 @@
       <logoScale>2.4</logoScale>
       <logoPos>-1 0.1</logoPos>
     </carousel>
-    
+
     <!--
     <image name="carousel-inner" extra="true">
       <path>./../../art/carousel.png</path>

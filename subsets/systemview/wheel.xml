@@ -26,7 +26,7 @@
     <carousel name="systemcarousel">
       <type>vertical_wheel</type>
       <pos>0 -0.5</pos>
-      <size>0.44 1.5</size>      
+      <size>0.44 1.5</size>
       <origin>0 0</origin>
       <color>00000000</color>
       <logoScale>2</logoScale>

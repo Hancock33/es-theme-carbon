@@ -36,25 +36,25 @@
       <color>${systemInfoColor}</color>
       <glowColor>${glowColor}</glowColor>
       <glowSize>2</glowSize>
-            
-     
+
+
         <glowSize>1</glowSize>
-      
+
       <reflexion>0.20 0.0</reflexion>
       <fontPath>./../../art/fonts/Comfortaa-Bold.ttf</fontPath>
       <fontSize>0.027</fontSize>
-      
+
      <!-- <pos>0.03 0.32</pos>
       <size>0.94 0.12</size>
       <alignment>right</alignment>
       <verticalAlignment>top</verticalAlignment>
       <reflexion>0</reflexion>
       -->
-            
+
       <!--
       <storyboard>
         <animation property="opacity" from="0" to="1" duration="350" mode="easeOut"/>
-        <animation property="scale" from="0" to="1" duration="350" mode="easeOut"/>                
+        <animation property="scale" from="0" to="1" duration="350" mode="easeOut"/>
       </storyboard>
     -->
     </text>

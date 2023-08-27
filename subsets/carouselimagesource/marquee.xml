@@ -3,7 +3,7 @@
   <formatVersion>7</formatVersion>
   <view name="gamecarousel">
     <gamecarousel name="gamecarousel">
-      <imageSource>marquee</imageSource>      
+      <imageSource>marquee</imageSource>
     </gamecarousel>
   </view>
 </theme>

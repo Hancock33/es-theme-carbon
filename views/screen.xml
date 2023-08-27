@@ -32,10 +32,10 @@ originally based on: "simple" by nils bonenberger
       <wheelPath>./art/wheel.svg</wheelPath>
       <activityColor>A0A0FFC0</activityColor>
       <hotkeyColor>FFA0A0C0</hotkeyColor>
-      <!-- wifi 
+      <!-- wifi
       <networkIcon>./art/icons/Network.png</networkIcon>
       -->
-      <!-- battery 
+      <!-- battery
       <incharge>./art/battery/incharge.svg</incharge>
       <full>./art/battery/full.svg</full>
       <at75>./art/battery/75.svg</at75>

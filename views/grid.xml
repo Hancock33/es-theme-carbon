@@ -16,7 +16,7 @@ originally based on: "simple" by nils bonenberger
       <origin>0 0</origin>
       <path>./art/bg.png</path>
       <color>${backgroundColor}</color>
-      <zIndex>8</zIndex>      
+      <zIndex>8</zIndex>
     </image>
     <image name="consolebk" extra="true" ifSubset="systembackground:consoles">
       <path>./art/background/${system.theme}.jpg</path>
@@ -53,7 +53,7 @@ originally based on: "simple" by nils bonenberger
       <horizontalAlignment>right</horizontalAlignment>
       <unfilledColor>606060</unfilledColor>
       <unfilledPath>:/star_filled.svg</unfilledPath>
-    </rating>    
+    </rating>
 <!--
     <image name="md_fanart">
       <pos>0.5 0.58</pos>
@@ -74,13 +74,13 @@ originally based on: "simple" by nils bonenberger
 			<color>D0D0D0D0</color>
 			<zIndex>55</zIndex>
 		</text>
-		
-    <image name="md_flag"> 
+
+    <image name="md_flag">
        <origin>0.5 0.5</origin>
        <pos>0.0225 0.90</pos>
        <maxSize>0.025 0.018</maxSize>
     </image>
-    
+
     <image name="md_cheevos, md_notcheevos">
       <path>./art/icons/Contest.png</path>
       <pos>0.0225 0.766</pos>
@@ -89,7 +89,7 @@ originally based on: "simple" by nils bonenberger
       <color>D0D0D0D0</color>
       <zIndex>150</zIndex>
     </image>
-    
+
     <image name="md_notcheevos">
       <color>80808030</color>
     </image>
@@ -103,7 +103,7 @@ originally based on: "simple" by nils bonenberger
       <color>D0D0D0D0</color>
       <zIndex>150</zIndex>
     </image>
-    
+
     <image name="md_nosavestate">
       <color>80808030</color>
     </image>
@@ -122,7 +122,7 @@ originally based on: "simple" by nils bonenberger
     <image name="md_nomanual">
       <color>80808025</color>
     </image>
-    
+
     <imagegrid name="gamegrid">
       <margin>0.005 0.010</margin>
       <pos>0.025 0.16</pos>
@@ -166,7 +166,7 @@ originally based on: "simple" by nils bonenberger
     <image name="gridtile.image">
       <linearSmooth>true</linearSmooth>
     </image>
-    
+
     <ninepatch name="gridtile.background:selected">
       <animateColor>EFEF60B0</animateColor>
       <animateColorTime>750</animateColorTime>

@@ -110,7 +110,7 @@ originally based on: "simple" by nils bonenberger
       <size ifHelpPrompts="false">0.003 0.84</size>
       <zIndex>14</zIndex>
     </image>
-    <!-- 
+    <!--
     <text name="md_genre, md_developer, md_publisher, md_lastplayed, md_releasedate, md_players, md_lbl_developer, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_lbl_players, md_lbl_releasedate">
       <storyboard>
         <animation property="opacity" from="0" duration="350" mode="easeOut"/>
@@ -218,7 +218,7 @@ originally based on: "simple" by nils bonenberger
     <!--
     <image name="md_favorite">
       <pos>0.975 0.21</pos>
-      <maxSize>0.02 0.03</maxSize>      
+      <maxSize>0.02 0.03</maxSize>
       <path>./../art/favorite.svg</path>
       <origin>0.5 0.5</origin>
       <color>969696</color>

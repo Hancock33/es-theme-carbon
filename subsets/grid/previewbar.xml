@@ -18,7 +18,7 @@
       <size ifSubset="gameBar:yes">0.29 0.774</size>
       <zIndex>12</zIndex>
     </image>
-    
+
 		<image name="gamelistLineZ" extra="true">
 			<path>./../../art/white.png</path>
 			<color>${glowColor}</color>
@@ -27,7 +27,7 @@
 			<size>0.003 0.775</size>
 			<zIndex>14</zIndex>
 		</image>
-		
+
     <image name="md_image">
       <visible>false</visible>
     </image>
@@ -50,7 +50,7 @@
 		  <pos>0.808 0.22</pos>
 		  <size>0.27 0</size>
 		</text>
-   
+
     <text name="md_developer">
       <color>EFEFFF</color>
       <pos>0.705 0.875</pos>
@@ -59,11 +59,11 @@
       <fontSize>0.025</fontSize>
     </text>
     <text name="md_developer" ifSubset="gameBar:yes">
-     
+
       <pos>0.68 0.875</pos>
 		  <size>0.28 0.05</size>
 		</text>
-    
+
     <video name="md_video">
       <pos>0.83 0.455</pos>
       <maxSize>0.29 0.39</maxSize>
@@ -79,7 +79,7 @@
       <pos>0.808 0.45</pos>
       <maxSize>0.26 0.39</maxSize>
     </video>
-    
+
     <!--
     <image name="tv_overlay" extra="true">
       <pos>0.68 0.25</pos>
@@ -110,7 +110,7 @@
     <image name="md_kidgame" ifSubset="gameBar:no">
       <path>./../../art/kid.svg</path>
       <pos>0.882 0.901</pos>
-      <maxSize>0.02 0.03</maxSize>      
+      <maxSize>0.02 0.03</maxSize>
       <origin>0.5 0.5</origin>
       <color>A0A0B0</color>
       <zIndex>150</zIndex>
@@ -118,18 +118,18 @@
     <image name="md_hidden" ifSubset="gameBar:no">
       <path>./../../art/hidden.svg</path>
       <pos>0.975 0.205</pos>
-      <maxSize>0.02 0.03</maxSize>      
+      <maxSize>0.02 0.03</maxSize>
       <origin>0.5 0.5</origin>
       <color>A0A0B0</color>
       <zIndex>150</zIndex>
     </image>
-    <image name="md_flag" ifSubset="gameBar:no"> 
+    <image name="md_flag" ifSubset="gameBar:no">
        <origin>0 0.5</origin>
        <pos>0.68 0.9</pos>
        <maxSize>0.02 0.05</maxSize>
     </image>
   </customView>
-  
+
   <customView name="Carousel, Boxes,Tiles,Icons,grid">
     <imagegrid name="gamegrid">
       <pos>0 0.16</pos>
@@ -138,14 +138,14 @@
 		<imagegrid name="gamegrid" ifSubset="infoBar:false">
       <pos>0.02 0.16</pos>
       <size>0.63 0.84</size>
-		</imagegrid>    
+		</imagegrid>
   </customView>
-  
+
   <customView name="Carousel">
     <imagegrid name="gamegrid">
       <autoLayout>3 1</autoLayout>
       <padding>0.01 0.18 0.01 0.24</padding>
     </imagegrid>
   </customView>
-    
+
 </theme>

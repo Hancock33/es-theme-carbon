@@ -24,6 +24,6 @@
     </image>
     <image name="CenterFade" extra="true">
       <color>000000A0</color>
-    </image>    
+    </image>
   </view>
 </theme>
