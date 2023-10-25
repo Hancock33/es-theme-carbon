@@ -51,6 +51,7 @@ languages and missing systems (batocera v36): by maioni
     <colored>Colored</colored>
     <subset.colorset>Colorset</subset.colorset>
     <subset.shader>Shader</subset.shader>
+    <subset.blurfx>Blur Effects</subset.blurfx>
     <glowSubsetName>Glow selection</glowSubsetName>
     <helpbuttons>Button location</helpbuttons>
     <xboxbuttons>Xbox buttons</xboxbuttons>
@@ -65,7 +66,7 @@ languages and missing systems (batocera v36): by maioni
   <include lang="ca">./lang/ca.xml</include>
   <include lang="de">./lang/de.xml</include>
   <include lang="en">./lang/en.xml</include>
-  <include lang="en_GB">./lang/engb.xml</include>
+  <include lang="en_GB">./lang/en_GB.xml</include>
   <include lang="es">./lang/es.xml</include>
   <include lang="eu">./lang/en.xml</include>
   <include lang="fr">./lang/fr.xml</include>
@@ -76,7 +77,8 @@ languages and missing systems (batocera v36): by maioni
   <include lang="nl">./lang/nl.xml</include>
   <include lang="pl">./lang/pl.xml</include>
   <include lang="pt">./lang/pt.xml</include>
-  <include lang="pt_BR">./lang/br.xml</include>
+  <include lang="pt_BR">./lang/pt_BR.xml</include>
+  <include region="select">./lang/br.xml</include>
   <include lang="ru">./lang/ru.xml</include>
   <include lang="uk">./lang/ru.xml</include>
   <include lang="zh">./lang/zh.xml</include>
@@ -148,6 +150,12 @@ languages and missing systems (batocera v36): by maioni
   <include>./views/carousel.xml</include>
   <include>./views/tiles.xml</include>
   <include>./views/icons.xml</include>
+
+  <!-- Subset option for blur effects -->
+  <subset name="blurfx" displayName="${subset.blurfx}" ifArch="windows,x86_64" tinyScreen="false">
+    <include name="yes" displayName="${yes}">./subsets/blurfx.xml</include>
+    <include name="no" displayName="${no}"/>
+  </subset>
 
   <!-- Subset options for help -->
   <subset name="helpsystem" displayName="${helpSubsetName}">
