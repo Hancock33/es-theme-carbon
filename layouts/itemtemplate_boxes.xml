@@ -177,7 +177,7 @@ originally based on: "simple" by nils bonenberger
           <!--<text>{grid:label}</text>-->
           <text>{grid:label}</text>
           <color>FFFFFFA0</color>
-          <fontPath>./art/fonts/Cabin-Regular.ttf</fontPath>
+          <fontPath>./art/fonts/Comfortaa-Regular.ttf</fontPath>
           <fontSize>0.018</fontSize>
           <alignment>center</alignment>
           <multiLine>true</multiLine>

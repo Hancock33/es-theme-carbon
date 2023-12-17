@@ -80,7 +80,7 @@ originally based on: "simple" by nils bonenberger
               <animation property="padding" to="-15 -15"/>
               <animation property="cornerSize" to="36 36"/>
               <animation property="color" from="${baseColor}" to="FFFF80FF" duration="1500" mode="easeOut"/>
-              <animation property="color" from="FFFF80FF" to="${baseColor}" begin="1500" duration="1500" mode="easeOut"/>              
+              <animation property="color" from="FFFF80FF" to="${baseColor}" begin="1500" duration="1500" mode="easeOut"/>
             </storyboard>
             <storyboard event="deactivate">
               <animation property="path" to="./../art/framew.png"/>
@@ -242,7 +242,7 @@ originally based on: "simple" by nils bonenberger
           <!--<text>{grid:label}</text>-->
           <text>{game:name}</text>
           <color>FFFFFFA0</color>
-          <fontPath>./art/fonts/Cabin-Regular.ttf</fontPath>
+          <fontPath>./art/fonts/Comfortaa-Regular.ttf</fontPath>
           <fontSize>0.020</fontSize>
           <alignment>center</alignment>
           <glowColor>${glowColor}</glowColor>

@@ -171,7 +171,7 @@ originally based on: "simple" by nils bonenberger
                       <!--<text>{game:favorite} ? {game:path} : {grid:label}</text>-->
                       <text>{game:name}</text>
                       <color>FFFFFFFF</color>
-                      <fontPath>./art/fonts/Cabin-Regular.ttf</fontPath>
+                      <fontPath>./art/fonts/Comfortaa-Regular.ttf</fontPath>
                       <fontSize>0.028</fontSize>
                       <glowColor>00000020</glowColor>
                       <glowSize>1</glowSize>
@@ -184,7 +184,7 @@ originally based on: "simple" by nils bonenberger
                       <verticalAlignment>top</verticalAlignment>
                       <text>{game:desc}</text>
                       <color>FFFFFFA0</color>
-                      <fontPath>./art/fonts/Cabin-Regular.ttf</fontPath>
+                      <fontPath>./art/fonts/Comfortaa-Regular.ttf</fontPath>
                       <fontSize>0.018</fontSize>
                       <autoScroll>vertical</autoScroll>
                       <multiLine>true</multiLine>

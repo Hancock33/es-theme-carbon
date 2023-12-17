@@ -60,7 +60,7 @@ originally based on: "simple" by nils bonenberger
                 <size>1 1</size>
                 <text>{game:name}</text>
                 <color>C0C0C0</color>
-                <fontPath>./../art/fonts/Cabin-Regular.ttf</fontPath>
+                <fontPath>./../art/fonts/Comfortaa-Regular.ttf</fontPath>
                 <fontSize>0.028</fontSize>
                 <glowColor>00000020</glowColor>
                 <glowSize>1</glowSize>

@@ -17,7 +17,7 @@
     <include name="none" displayName="NONE"/>
     <include name="thumb" displayName="THUMBNAIL"/>
     <include name="fanart" displayName="FANART"/>
-	</subset>
+  </subset>
   <customView name="Content" inherits="grid" displayName="${contentViewName}">
     <!--
     <image name="gamePage" extra="true">
@@ -132,7 +132,9 @@
     <imagegrid name="gamegrid">
       <autoLayout>3 4</autoLayout>
       <autoLayout if="${simpleMode}">3 5</autoLayout>
+      <autoLayout if="!${wideScreen}">2 4</autoLayout>
       <autoLayout ifSubset="previewbar:yes">2 4</autoLayout>
+      <autoLayout if="!${wideScreen}" ifSubset="previewbar:yes" >1 4</autoLayout>
       <margin>0.006 0.010</margin>
       <itemTemplate>
         <container name="contentRoot">
@@ -438,7 +440,7 @@
                       <text if="!${simpleMode} &amp;&amp; ${system.showSystemName}">
                         <pos>0 0</pos>
                         <size>0 1</size>
-                        <text>[{game:system}]</text>
+                        <text>"[" + {game:system} + "]"</text>
                         <color>FFFFFF70</color>
                         <fontPath>./art/fonts/Comfortaa-Regular.ttf</fontPath>
                         <fontSize>0.016</fontSize>
