@@ -82,7 +82,6 @@ originally based on: "simple" by nils bonenberger
       <linearSmooth>true</linearSmooth>
     </image>
   </view>
-
   <feature supported="manufacturer">
     <view name="system">
       <text name="manufacturerName" extra="static">

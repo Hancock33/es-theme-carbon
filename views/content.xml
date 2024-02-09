@@ -13,10 +13,10 @@
     <blinkColor>FFFF80FF</blinkColor>
     <blinkColor ifSubset="blinkborders:no">${baseColor}</blinkColor>
   </variables>
-  <subset if="!${simpleMode}" name="contentBack" displayName="CONTENT BACKGROUND" appliesTo="Content">
-    <include name="none" displayName="NONE"/>
-    <include name="thumb" displayName="THUMBNAIL"/>
-    <include name="fanart" displayName="FANART"/>
+    <subset if="!${simpleMode}" name="contentBack" displayName="${contentBackground}" appliesTo="Content">
+    <include name="none" displayName="${none}"/>
+    <include name="thumb" displayName="${thumbnail}"/>
+    <include name="fanart" displayName="${fanart}"/>
   </subset>
   <customView name="Content" inherits="grid" displayName="${contentViewName}">
     <!--
@@ -134,7 +134,7 @@
       <autoLayout if="${simpleMode}">3 5</autoLayout>
       <autoLayout if="!${wideScreen}">2 4</autoLayout>
       <autoLayout ifSubset="previewbar:yes">2 4</autoLayout>
-      <autoLayout if="!${wideScreen}" ifSubset="previewbar:yes" >1 4</autoLayout>
+      <autoLayout if="!${wideScreen}" ifSubset="previewbar:yes">1 4</autoLayout>
       <margin>0.006 0.010</margin>
       <itemTemplate>
         <container name="contentRoot">
@@ -235,7 +235,7 @@
             <container name="spacer" w="0.007"/>
             <container>
               <w>{grid:h}</w>
-              <image name="imageOfGame" if="!${simpleMode}">
+              <image name="imageOfGame" if="!${simpleMode}" shared="false">
                 <path>{game:image}</path>
                 <origin>0.5</origin>
                 <pos>0.5</pos>
@@ -375,7 +375,7 @@
                       <color>FFFFFFFF</color>
                     </image>
                     <image>
-                      <visible>{game:gunGame}</visible>
+                      <visible>{game:gunGame} &amp;&amp; {system:showGun}</visible>
                       <path>./../resources/fontoverrides/F05B.png</path>
                       <pos>0 0</pos>
                       <origin>0 0</origin>
@@ -383,6 +383,17 @@
                       <horizontalAlignment>right</horizontalAlignment>
                       <saturation>{game:gunGame} ? 1 : 0</saturation>
                       <opacity>{game:gunGame} ? 1 : 0.2</opacity>
+                      <color>FFFFFFFF</color>
+                    </image>
+                    <image>
+                      <visible>{game:wheelGame} &amp;&amp; {system:showWheel}</visible>
+                      <path>./../resources/fontoverrides/F1B9.png</path>
+                      <pos>0 0</pos>
+                      <origin>0 0</origin>
+                      <maxSize>1 1</maxSize>
+                      <horizontalAlignment>right</horizontalAlignment>
+                      <saturation>{game:wheelGame} ? 1 : 0</saturation>
+                      <opacity>{game:wheelGame} ? 1 : 0.2</opacity>
                       <color>FFFFFFFF</color>
                     </image>
                   </stackpanel>
