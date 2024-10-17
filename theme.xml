@@ -36,7 +36,7 @@ languages and missing systems (batocera v36): by maioni
     <orientationSubsetName>Orientation</orientationSubsetName>
     <videosSubsetName>Videos</videosSubsetName>
     <logosSubsetName>Logos</logosSubsetName>
-    <systemViewExInfos>Extended system informations</systemViewExInfos>
+    <systemViewInfo>System information</systemViewInfo>
     <animationsSubsetName>Transition Animations</animationsSubsetName>
     <hideselectionSubsetName>Hide selection</hideselectionSubsetName>
     <systemBackgroundName>System background</systemBackgroundName>
@@ -74,6 +74,7 @@ languages and missing systems (batocera v36): by maioni
   <include lang="fr">./lang/fr.xml</include>
   <include lang="gr">./lang/gr.xml</include>
   <include lang="it">./lang/it.xml</include>
+  <include lang="hu">./lang/hu.xml</include>
   <include lang="jp">./lang/jp.xml</include>
   <include lang="ko">./lang/ko.xml</include>
   <include lang="nl">./lang/nl.xml</include>
@@ -81,6 +82,7 @@ languages and missing systems (batocera v36): by maioni
   <include lang="pt">./lang/pt.xml</include>
   <include lang="pt_BR">./lang/pt_BR.xml</include>
   <include lang="br">./lang/br.xml</include>
+  <include lang="ro_RO">./lang/ro_RO.xml</include>
   <include lang="ru">./lang/ru.xml</include>
   <include lang="uk">./lang/ru.xml</include>
   <include lang="zh">./lang/zh.xml</include>
@@ -102,10 +104,11 @@ languages and missing systems (batocera v36): by maioni
   <include>./views/screen.xml</include>
   <include>./views/system.xml</include>
 
-  <!-- Subset option for System extended informations -->
-  <subset name="subsetSystemInfoEx" displayName="${systemViewExInfos}" tinyScreen="false">
-    <include name="yes" displayName="${yes}">./subsets/extendedinfo.xml</include>
-    <include name="no" displayName="${no}"/>
+  <!-- Subset option for System information -->
+  <subset name="subsetSystemInfo" displayName="${systemViewInfo}">
+    <include name="extended" displayName="${extended}" tinyScreen="false">./subsets/extendedinfo.xml</include>
+    <include name="standard" displayName="${standard}"/>
+    <include name="none" displayName="${none}">./subsets/noinfo.xml</include>
   </subset>
   <!-- Subset options for screen -->
   <subset name="systemview" displayName="${systemViewName}">
