@@ -1,4 +1,4 @@
-# To avoid having a theme structure like <systemfolder>/theme.xml for custom collections
+﻿# To avoid having a theme structure like <systemfolder>/theme.xml for custom collections
 # You can use the collections.info file to list every supported collections names
 Ace Attorney
 Adventure Time
@@ -105,3 +105,4 @@ Yogi Bear
 Ys
 Yu Yu Hakusho
 Yu-Gi-Oh
+Zelda
