@@ -1,4 +1,4 @@
-﻿# To avoid having a theme structure like <systemfolder>/theme.xml for custom collections
+# To avoid having a theme structure like <systemfolder>/theme.xml for custom collections
 # You can use the collections.info file to list every supported collections names
 Ace Attorney
 Adventure Time
@@ -40,6 +40,7 @@ Double Dragon
 Doujin
 Dragon Ball Z
 Dragon Ball
+Dragon Quest
 DuckTales
 Duke Nukem
 Dungeons & Dragons
@@ -54,6 +55,7 @@ Grand Theft Auto
 GTA
 King of Fighters
 Kirby
+Mana
 Mario
 Mario Kart
 Metal Gear
